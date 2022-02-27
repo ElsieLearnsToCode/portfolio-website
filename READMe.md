@@ -1,0 +1,10 @@
+# Elsie Akoth's Portfolio Website
+#### 
+This a website that showcases all the projects that I have had the privilege of creating either by myself or as part of a team. Launced on 26 February 2022, I will keep on updating it with my latest projects as soon as each is completed.
+#### By **Elsie Akoth Dev. Reach me through my email address at elsyakoth"gmail.com**
+## Setup/Installation Requirements
+* This website is compartible with and will render on any of the popular search engines such as Google Chrome, Mozilla Firefox, Brave and Bing.
+## Technologies Used
+I used HTML and CSS to create this website. 
+### License
+Copyright (Elsie Akoth) {2022} **{
