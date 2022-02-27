@@ -5,51 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elsie Akoth</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="./CSS/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
-<body><h1>Elsie Akoth</h1>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Elsie Learns to Code</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li><a href="#">Hire Me</a></li>
-            <li><a href="#">Contact Me</a></li>
-            <li><a href="#">Coding Classes</a></li>
-            <li><a href="#Skills">Skills</a> </li>
-          </ul>
-        </div>
-      </nav>
-      <section class="heroImage">
-          <div class="hero contents">
-            <div class="text-center hero-cta"> 
-              <button>
-                Learn More
-              </button>
-            </div>
-            <!-- <img src="./me.jpeg" alt="code"> -->
-          </div>  
-        </section>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container container-fluid">
+    <a class="navbar-brand" href="#">Elsie Akoth</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-      <div class="about me"> 
-          <h2>
-              About Me
-          </h2>
-          <p>
-            Hello, welcome to my portfolio website. My name is Elsie Akoth Otieno. 
-            I have a bachelor of science (Bsc.) in Industrial Chemistry, from the university of Nairobi.
-            Although I am a chemistry graduate, I developed a keen interest in tech,
-            especially web development after attending the <a href=""https://www.visiolafoundation.org/>Visiola Foundation</a>
-            and the <a href="https://andela.com/alc/in-progress/google-africa-developer-scholarship-2021/">Google Africa Developer's Scholarship</a>.
-            I am currently enrolled in the SoftwareDevelopment Course at <a href="https://moringaschool.com/">MOringa School</a>. My eventual career objective is to be a fullstack web developer.
-          </p>
-      </div>
-      <div class="container" id="Skills">
-          <div class="row">
-            <div class="col-md-6">
-              <h2>Skills</h2>
+        <div class="p-5 mb-4 bg-light rounded-3">
+          <div class="container-fluid py-5">
+            <div class="row">
+              <div class="col-md-8">
+                <h1 class="display-5 fw-bold">Portfolio</h1>
+                <p class="col-md-8 fs-4">An ambitious developer looking to make the world a better place</p>
+                <a class="btn btn-primary btn-lg" type="button" href = "#about-me">See more</a>
+              </div>
+              <div class="col-md-4">
+                <img src = "./undraw_mobile_user_re_xta4.svg" alt = "Hero Image" class ="hero-image mt-3"/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="about-me" id = "about-me"> 
+              <h2>
+                  About Me
+              </h2>
+              <p>
+                Hello, welcome to my portfolio website. My name is Elsie Akoth Otieno. 
+                I have a bachelor of science (Bsc.) in Industrial Chemistry, from the university of Nairobi.
+                Although I am a chemistry graduate, I developed a keen interest in tech,
+                especially web development after attending the <a href="https://www.visiolafoundation.org"/>Visiola Foundation</a>
+                and the <a href="https://andela.com/alc/in-progress/google-africa-developer-scholarship-2021/">Google Africa Developer's Scholarship</a>.
+                I am currently enrolled in the SoftwareDevelopment Course at <a href="https://moringaschool.com/">Moringa School</a>. My eventual career objective is to be a fullstack web developer. I enjoy reading novels, listening to music and swimming. 
+              </p>
+          </div>
+          </div>
+          <div class="col-md-4" id = "skills">
+            <div class = "ps-md-5">
+              <h2 class = "ms-md-3">Skills</h2>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -57,21 +75,20 @@
                 <li>GitHub</li>
               </ul>
             </div>
-            <div class="col-md-6">
-              <img class="skills-img" src="./undraw_mobile_user_re_xta4.svg" alt="">
-            </div>
           </div>
-      </div>
-      <div class="list">
-          <h2>Projects Portfolio</h2>
-          <ul>
-              <li><a href="https://elsielearnstocode.github.io/my-first-project/">Becky's Coffee Shop</a></li>
-              <li><a href="https://elsielearnstocode.github.io/my-first-webpage/">My First Webpage</a></li>
-          </ul>
-      </div>
-      <script 
-      src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-      </script>
+          <div class="col-md-4" id = "projects">
+            <div class="list">
+              <h2>Projects Portfolio</h2>
+              <h3><a href="https://elsielearnstocode.github.io/my-first-project/">Becky's Coffee Shop</a></h3>
+              <p>This project was built with HTML, CSS, and GitHub</p>
+              <h3><a href="https://elsielearnstocode.github.io/my-first-webpage/">My First Webpage</a></h3>
+              <p>This project was built with HTML, CSS, and GitHub</p>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
