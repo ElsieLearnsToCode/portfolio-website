@@ -4,10 +4,13 @@ body {
     font-style: normal;
 }
 img {
-    width: 100%;
+    width: 120%;
+    height: 120%;
     margin:0px;
+    background-color: blanchedalmond;
+    padding: auto;
+    float: right;
 }
 .hero-mage {
     max-width: 200pxs;
 }
-
