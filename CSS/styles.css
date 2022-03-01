@@ -1,12 +1,14 @@
 body {
-    background-color: rgb(218, 201, 174);
+    background-color: blanchedalmond;
     font: roboto;
     font-style: normal;
 }
 img {
     width: 120%;
-    height: 120%;
+    height: 150%;
     margin:0px;
     background-color: blanchedalmond;
     padding: auto;
+    float: left;
 }
+
